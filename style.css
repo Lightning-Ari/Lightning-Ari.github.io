@@ -1,58 +1,69 @@
+/* RESET */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* BODY */
 body {
   height: 100vh;
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Inter', sans-serif;
+
   display: flex;
   justify-content: center;
   align-items: center;
 
-  /* DARK GRADIENT BACKGROUND */
-  background: radial-gradient(circle at 20% 30%, #1f2937, #020617);
-  color: #ff7a7a;
+  /* 🎯 CLOSE MATCH GRADIENT */
+  background: radial-gradient(
+    circle at 50% 40%,
+    #1f2937 0%,
+    #111827 40%,
+    #020617 100%
+  );
+
+  color: #ff6b81;
 }
 
-/* CENTER CONTENT */
+/* HERO CONTAINER */
 .hero {
-  text-align: center;
+  text-align: left;
+  max-width: 700px;
+  width: 100%;
 }
 
-/* SMALL TEXT */
+/* INTRO TEXT */
 .intro {
   font-size: 18px;
-  margin-bottom: 10px;
-  color: #ff7a7a;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-bottom: 8px;
+  opacity: 0.8;
 }
 
-/* BIG NAME */
-h1 {
-  font-size: 80px;
+/* NAME */
+.hero h1 {
+  font-size: 72px;
   font-weight: 700;
-  margin-bottom: 10px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 12px;
+  letter-spacing: -1px;
 }
 
-/* SUBTEXT */
+/* SUBTITLE */
 .subtitle {
   font-size: 18px;
-  margin-bottom: 20px;
-  color: #ff7a7a;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+  margin-bottom: 25px;
+  opacity: 0.8;
 }
 
 /* ICONS */
 .icons a {
-  color: #ff7a7a;
-  margin: 0 10px;
-  font-size: 24px;
-  transition: 0.3s;
+  color: #ff6b81;
+  font-size: 26px;
+  margin-right: 18px;
+  transition: all 0.3s ease;
 }
 
+/* HOVER EFFECT */
 .icons a:hover {
   color: #ffffff;
+  transform: translateY(-2px);
 }
