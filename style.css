@@ -17,9 +17,9 @@ body {
   /* 🎯 CLOSE MATCH GRADIENT */
   background: radial-gradient(
     circle at 50% 40%,
-    #1f2937 0%,
-    #111827 40%,
-    #020617 100%
+    #12394b 0%,
+    #1e1135 40%,
+    #030d36 100%
   );
 
   color: #ff6b81;
@@ -53,7 +53,24 @@ body {
   margin-bottom: 25px;
   opacity: 0.8;
 }
+.projects {
+  margin-top: 70px;
+  max-width: 700px;
+}
 
+.projects h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.project {
+  margin-bottom: 20px;
+}
+
+.project h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
 /* ICONS */
 .icons a {
   color: #ff6b81;
@@ -67,3 +84,4 @@ body {
   color: #ffffff;
   transform: translateY(-2px);
 }
+
